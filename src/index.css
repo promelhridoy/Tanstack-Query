@@ -1,0 +1,17 @@
+body { font-family: system-ui, sans-serif; margin: 0; color: #1f2937; background: #fafafa; }
+.layout { display: grid; grid-template-columns: 220px 1fr; min-height: 100vh; }
+nav { background: #111827; padding: 16px 0; }
+nav h1 { color: #fff; font-size: 15px; padding: 0 16px 12px; margin: 0; }
+nav button { display: block; width: 100%; text-align: left; background: none; border: 0; color: #cbd5e1; padding: 10px 16px; cursor: pointer; font-size: 14px; }
+nav button:hover { background: #1f2937; }
+nav button.active { background: #2563eb; color: #fff; }
+main { padding: 24px 32px; max-width: 760px; }
+h2 { margin-top: 0; }
+.hint { background: #eff6ff; border-left: 4px solid #2563eb; padding: 8px 12px; font-size: 14px; margin-bottom: 16px; }
+.error { color: #b91c1c; }
+.muted { color: #6b7280; font-size: 13px; }
+ul { padding-left: 18px; }
+li { margin: 6px 0; }
+button, input, select { font-size: 14px; padding: 6px 10px; margin-right: 6px; }
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; margin: 12px 0; }
+.done { text-decoration: line-through; color: #9ca3af; }
